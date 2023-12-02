@@ -1,0 +1,67 @@
+:root {
+    /* Color Variables */
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px, 10px is easier to work with */
+}
+
+body {
+    height: 100vh;
+    font-family: 'outfit', sans-serif;
+    background-color: var(--grayish-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+p {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+#container {
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 5%;
+    /*padding: 4rem 0;*/
+    max-width: 500px;
+}
+
+#qr-text {
+    display: flex;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 1rem;
+
+
+}
+
+.attribution {
+    text-align: center;
+}
+
+#image-code {
+  width: 100%;
+    border-radius: 5%;
+}

@@ -1,0 +1,150 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --purple: #24053E;
+    --green: #44FFA1;
+    --gray-purple: #584D62;
+    --white-purple: #FCF8FF;
+    --white: #FFFFFF;
+}
+
+/* Fraunces Font */
+@font-face {
+    font-family: 'Fraunces';
+    src: url('./fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Manrope Font */
+@font-face {
+    font-family: 'Manrope';
+    src: url('./fonts/manrope/static/Manrope-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Heading L */
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 144px;
+    font-weight: 600; /* Semi Bold */
+    line-height: 80px; /* Line Spacing */
+    color: var(--white);
+}
+
+/* Heading M */
+h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 56px;
+    font-weight: 600; /* Semi Bold */
+    line-height: 64px; /* Line Spacing */
+}
+
+/* Heading S */
+h3 {
+    font-family: 'Fraunces', sans-serif;
+    font-size: 32px;
+    font-weight: 600; /* Semi Bold */
+    line-height: 40px; /* Line Spacing */
+}
+
+/* Body Text */
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    font-weight: 400; /* Regular */
+    line-height: 32px; /* Line Spacing */
+}
+
+.primary-button {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 600;
+    background-color: var(--green);
+    color: var(--purple);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-button:hover {
+    background-color: var(--purple);
+    color: var(--green);
+    border: 2px solid #44FFA1; /* Set border color to green */
+}
+
+.secondary-button {
+    /*padding: .5rem;*/
+    /*font-family: 'Fraunces', sans-serif;*/
+    /*font-size: 3.5vw;*/
+    /*background-color: var(--purple);*/
+    /*color: var(--white);*/
+    /*border: none;*/
+    /*border-bottom: 0.3rem solid var(--green);*/
+    /*cursor: pointer;*/
+
+    background-color: var(--purple);
+    color: var(--white);
+    padding: .5rem;
+    font-family: 'Manrope', sans-serif;
+    font-weight: bold;
+    font-size: 3.5vw;
+    max-font-size: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: underline;
+    text-decoration-color: #44FFA1;
+
+
+}
+
+.secondary-button:hover {
+    color: var(--green);
+}
+
+@media only screen and (max-width: 1200px) {
+    /* Your mobile styles go here */
+    header {
+        display: flex;
+        flex-direction: column;
+        height: 80vh;
+        background-color: var(--purple);
+        border-radius: 50%/0 0 5% 5%;
+        overflow: hidden;
+    }
+
+    #top-section {
+        /*padding: 4rem;*/
+        padding: 4rem 2vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    #logo-white{
+        height: 10vw;
+        padding: 5px;
+        max-height: 75px;
+    }
+
+    #accent {
+        text-decoration: underline;
+        text-decoration-color: var(--green); /* Set the color of the underline */
+        text-decoration-thickness: 0.05em;
+    }
+
+    h1 {
+        font-family: 'Fraunces', sans-serif;
+        font-weight: 600; /* Semi Bold */
+        color: var(--white);
+        padding: 4rem;
+        line-height: 80px; /* Line Spacing */
+
+    }
+
+}
+
