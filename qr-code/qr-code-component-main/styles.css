@@ -85,6 +85,7 @@ body {
     font-size: 62.5%; /* 1rem = 10px, 10px is easier to work with */
     background-color: var(--light-gray);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }

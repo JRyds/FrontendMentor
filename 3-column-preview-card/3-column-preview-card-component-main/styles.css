@@ -1,0 +1,192 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font: inherit;
+}
+
+/* Make sure text areas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+:root {
+
+    /* Colors */
+    --bright-orange: hsl(31, 77%, 52%);
+    --dark-cyan: hsl(184, 100%, 22%);
+    --very-dark-cyan: hsl(179, 100%, 13%);
+
+    --transparent-white: hsla(0, 0%, 100%, 0.75);
+    --very-light-gray: hsl(0, 0%, 95%);
+
+    /* Typography */
+    --body-font-size: 15px;
+
+    --body-font-family: 'Lexend Deca';
+    --body-font-weight: 400;
+
+    --heading-font-family: 'Big Shoulders Display';
+    --heading-font-weight: 700;
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    font-family: lexend deca, serif;
+    color: var(--very-light-gray);
+    font-weight: 400;
+    padding: 1rem;
+}
+
+h2 {
+    font-family: big shoulders display, serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+p {
+    font-family: "lexend deca", serif;
+    color: var(--transparent-white);
+    font-weight: 300;
+
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    width: 10rem;
+    margin-top: 2rem;
+}
+
+.sedan button {
+    color: var(--bright-orange);
+}
+
+.suv button {
+    color: var(--dark-cyan);
+}
+
+.luxury button {
+    color: var(--very-dark-cyan);
+}
+
+.card {
+    padding: 3rem;
+}
+
+
+.sedan{
+    background-color: var(--bright-orange) ;
+}
+
+.suv {
+    background-color: var(--dark-cyan);
+}
+
+.luxury {
+    background-color: var(--very-dark-cyan);
+}
+
+
+/* Media query for mobile screens */
+@media screen and (max-width: 375px) {
+    main {
+        flex-direction: column;
+    }
+
+    .card-container {
+        border-radius: 1rem;
+        overflow: hidden; /* Ensure content doesn't overflow rounded corners */
+    }
+}
+
+@media screen and (min-width: 376px) {
+    main {
+
+    }
+    .card-container {
+        display: flex;
+        max-height: 35rem;
+        max-width: 80rem;
+        border-radius: 0.8rem;
+        overflow: hidden; /* Ensure content doesn't overflow rounded corners */
+    }
+    .card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+
+    }
+
+    img {
+        max-width: 5rem;
+    }
+
+    h2 {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+}
