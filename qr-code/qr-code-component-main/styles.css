@@ -1,3 +1,72 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font: inherit;
+}
+
+/* Make sure textareas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
 :root {
     /* Color Variables */
     --white: hsl(0, 0%, 100%);
@@ -7,61 +76,60 @@
 }
 
 html {
-    font-size: 62.5%; /* 1rem = 10px, 10px is easier to work with */
+
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'outfit', sans-serif;
-    background-color: var(--grayish-blue);
+    font-size: 62.5%; /* 1rem = 10px, 10px is easier to work with */
+    background-color: var(--light-gray);
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 p {
-    font-size: 1.8rem;
+    font-size: 1rem;
     text-align: center;
+    /*padding: 1rem;*/
+}
+
+img {
+    /*padding: 1rem;*/
+    border-radius: 1rem;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     text-align: center;
+    /*padding: 0.5rem;*/
 }
 
-
-#container {
+main {
     background-color: var(--white);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    border-radius: 5%;
-    /*padding: 4rem 0;*/
-    max-width: 500px;
-}
-
-#qr-text {
-    display: flex;
+    border-radius: 1rem;
     padding: 1rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    margin: 1rem;
-
-
+    max-width: 20rem;
 }
+
+/*.qr-text {*/
+/*    display: flex;*/
+/*    padding: 1rem;*/
+/*    flex-direction: column;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    width: 90%;*/
+/*    margin: 1rem;*/
+/*}*/
 
 .attribution {
     text-align: center;
 }
 
-#image-code {
-  width: 100%;
-    border-radius: 5%;
-}
+

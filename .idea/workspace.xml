@@ -4,44 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/downloads/qr-code-component-main.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/README-template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/design/desktop-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/design/desktop-preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/design/mobile-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/images/image-qr-code.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/style-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thumbnails/qr-code.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/fraunces/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/fraunces/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/fraunces/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/fraunces/static/Fraunces_144pt-SemiBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/manrope/Manrope-VariableFont_wght.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/manrope/OFL.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/manrope/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/fonts/manrope/static/Manrope-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/bg-pattern-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/bg-pattern-2.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/bg-pattern-3.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/icon-facebook.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/icon-instagram.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/icon-twitter.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/image-founder.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/image-hero.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/logo-dark.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/images/logo-light.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/styles.css" afterDir="false" />
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="QR Code Component Finished">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,24 +39,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/jpryd/Documents/Frontend Mentor",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jpryd/Documents/Frontend Mentor&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.web.browsers&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jpryd\Documents\Frontend Mentor\qr-code\qr-code-component-main" />
@@ -109,7 +75,18 @@
       <workItem from="1701415277488" duration="5000" />
       <workItem from="1701415327317" duration="8252000" />
       <workItem from="1701429541244" duration="5230000" />
+      <workItem from="1701536015548" duration="1273000" />
+      <workItem from="1701688778569" duration="2505000" />
     </task>
+    <task id="LOCAL-00001" summary="QR Code Component Finished">
+      <option name="closed" value="true" />
+      <created>1701536054801</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701536054801</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,5 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="QR Code Component Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="QR Code Component Finished" />
   </component>
 </project>
