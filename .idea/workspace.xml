@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="Added attribution">
-      <change afterPath="$PROJECT_DIR$/thumbnails/3column.component.jpg" afterDir="false" />
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="added to github pages">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +94,7 @@
       <workItem from="1701709514673" duration="857000" />
       <workItem from="1701779802228" duration="1630000" />
       <workItem from="1701781844730" duration="213000" />
-      <workItem from="1701782089114" duration="5250000" />
+      <workItem from="1701782089114" duration="6239000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -129,7 +128,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701788470900</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added to github pages">
+      <option name="closed" value="true" />
+      <created>1701789188864</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1701789188864</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +148,7 @@
     <MESSAGE value="Changes made after feedback." />
     <MESSAGE value="challenge completed" />
     <MESSAGE value="Added attribution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added attribution" />
+    <MESSAGE value="added to github pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="added to github pages" />
   </component>
 </project>

@@ -147,25 +147,31 @@ button {
 
 
 /* Media query for mobile screens */
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 850px) {
     main {
         flex-direction: column;
+        align-items: center;
     }
 
     .card-container {
         border-radius: 1rem;
         overflow: hidden; /* Ensure content doesn't overflow rounded corners */
+        max-width: 20rem;
+
     }
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 851px) {
     main {
+        justify-content: center;
+        align-items: center;
 
     }
     .card-container {
         display: flex;
         max-height: 35rem;
         max-width: 80rem;
+        min-height: 40rem;
         border-radius: 0.8rem;
         overflow: hidden; /* Ensure content doesn't overflow rounded corners */
     }
@@ -187,6 +193,6 @@ button {
 
     p {
         margin-top: 1rem;
-        font-size: 1rem;
+        font-size: 1.3rem;
     }
 }
