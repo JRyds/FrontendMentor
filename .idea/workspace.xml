@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="Added attribution">
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/README-template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/design/active-states.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/design/desktop-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/design/desktop-preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/design/mobile-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/images/icon-luxury.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/images/icon-sedans.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/images/icon-suvs.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/style-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/downloads/3-column-preview-card-component-figma.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/downloads/3-column-preview-card-component-figma/3-column-preview-card-component-figma/3-column-preview-card-component.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/downloads/3-column-preview-card-component-figma/3-column-preview-card-component-figma/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/downloads/3-column-preview-card-component-figma/__MACOSX/._3-column-preview-card-component-figma" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/downloads/3-column-preview-card-component-figma/__MACOSX/3-column-preview-card-component-figma/._3-column-preview-card-component.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/downloads/3-column-preview-card-component-figma/__MACOSX/3-column-preview-card-component-figma/._README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/3-column-preview-card/downloads/3-column-preview-card-component-main.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thumbnails/3column.component.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +24,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "JRyds"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bcd228f5-8971-47e8-a39b-cd5036a7a246" />
+        <option name="url" value="https://github.com/JRyds/FrontendMentor.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -101,7 +95,7 @@
       <workItem from="1701709514673" duration="857000" />
       <workItem from="1701779802228" duration="1630000" />
       <workItem from="1701781844730" duration="213000" />
-      <workItem from="1701782089114" duration="4473000" />
+      <workItem from="1701782089114" duration="5250000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -127,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701692511813</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added attribution">
+      <option name="closed" value="true" />
+      <created>1701788470900</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1701788470900</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +139,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="QR Code Component Finished" />
     <MESSAGE value="Changes made after feedback." />
+    <MESSAGE value="challenge completed" />
     <MESSAGE value="Added attribution" />
     <option name="LAST_COMMIT_MESSAGE" value="Added attribution" />
   </component>
