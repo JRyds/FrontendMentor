@@ -153,26 +153,50 @@ button {
         align-items: center;
     }
 
+    p {
+        font-size: 1.2rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
     .card-container {
         border-radius: 1rem;
-        overflow: hidden; /* Ensure content doesn't overflow rounded corners */
-        max-width: 20rem;
-
+        width: 80vw;
+        height: 80vh;
     }
+
+    .attribution {
+        padding: 2rem;
+        color: #001F3F;
+    }
+
+    .sedan {
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+    }
+
+    .luxury {
+        border-bottom-left-radius: 1rem;
+        border-bottom-right-radius: 1rem;
+    }
+
+
 }
 
 @media screen and (min-width: 851px) {
     main {
+        height: 100vh;
         justify-content: center;
         align-items: center;
-
     }
+
     .card-container {
         display: flex;
-        max-height: 35rem;
         max-width: 80rem;
         min-height: 40rem;
-        border-radius: 0.8rem;
+        border-radius: 1rem;
         overflow: hidden; /* Ensure content doesn't overflow rounded corners */
     }
     .card {
@@ -195,4 +219,11 @@ button {
         margin-top: 1rem;
         font-size: 1.3rem;
     }
+    .attribution {
+        padding: 1rem;
+        color: #001F3F;
+    }
+
+
+
 }
