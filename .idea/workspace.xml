@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="edited some color vars">
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="fixed attribute positioning">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" afterDir="false" />
@@ -103,7 +103,7 @@
       <workItem from="1702470356197" duration="680000" />
       <workItem from="1702544290813" duration="11013000" />
       <workItem from="1702560314161" duration="869000" />
-      <workItem from="1702561682697" duration="3705000" />
+      <workItem from="1702561682697" duration="4009000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -241,7 +241,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702565676255</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed attribute positioning">
+      <option name="closed" value="true" />
+      <created>1702567694378</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1702567694378</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,6 +271,7 @@
     <MESSAGE value="edited min-height on &lt;body&gt;" />
     <MESSAGE value="edited min-height on &lt;main&gt;" />
     <MESSAGE value="edited some color vars" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited some color vars" />
+    <MESSAGE value="fixed attribute positioning" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed attribute positioning" />
   </component>
 </project>
