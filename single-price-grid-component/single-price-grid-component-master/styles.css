@@ -13,24 +13,17 @@ html {
 }
 
 /* Remove default margin in favour of better control in authored CSS */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
     margin-block-end: 0;
+    margin: 0;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-/*ul[role='list'],*/
-/*ol[role='list'] {*/
-/*    list-style: none;*/
-/*}*/
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
 
 /* Set core body defaults */
 body {
@@ -39,15 +32,11 @@ body {
 }
 
 /* Set shorter line heights on headings and interactive elements */
-h1,
-h2,
-h3,
-h4,
-button,
-input,
-label {
+h1, h2, h3, h4,
+button, input, label {
     line-height: 1.1;
 }
+
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -63,14 +52,12 @@ picture {
 }
 
 /* Inherit fonts for inputs and buttons */
-input,
-button,
-textarea,
-select {
+input, button,
+textarea, select {
     font: inherit;
 }
 
-/* Make sure text areas without a rows attribute are not tiny */
+/* Make sure textareas without a rows attribute are not tiny */
 textarea:not([rows]) {
     min-height: 10em;
 }
@@ -81,28 +68,33 @@ textarea:not([rows]) {
 }
 
 :root {
+    /* Layout */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
 
     /* Colors */
-    --bright-orange: hsl(31, 77%, 52%);
-    --dark-cyan: hsl(184, 100%, 22%);
-    --very-dark-cyan: hsl(179, 100%, 13%);
+    --cyan: #2AB3B1;
+    --trans-cyan: #28c2b9;
+    --pbright-yellow: #C0DF33;
+    --light-gray: hsl(0, 0%, 99%);
+    --grayish-blue: #9AA7BE;
+    --blue-gray: #E6EFF5;
+    --white: #FFFFFF;
+    --dumb-overlay-cyan: #c4fff4;
 
-    --transparent-white: hsla(0, 0%, 100%, 0.75);
-    --very-light-gray: hsl(0, 0%, 95%);
-
-    /* Typography */
-    --body-font-size: 15px;
-
-    --body-font-family: 'Lexend Deca';
-    --body-font-weight: 400;
-
-    --heading-font-family: 'Big Shoulders Display';
-    --heading-font-weight: 700;
 }
+
+body {
+    font-size:18px;
+    font-family: 'Karla', serif;
+    font-weight: 400;
+}
+
 
 .attribution {
     font-size: 11px;
     text-align: center;
+    padding: 1rem;
 }
 
 .attribution a {
@@ -113,7 +105,118 @@ li {
     list-style: none
 }
 
+.join {
+    background-color: var(--light-gray);
+    padding: 2rem;
+}
+
+.join * {
+    padding: 0.5rem;
+}
+
+.join h2 {
+    color: var(--cyan) ;
+    font-weight: 700;
+}
+
+.price-box {
+    margin: 1rem
+}
+
+
+.join h3 {
+    color: var(--pbright-yellow) ;
+    font-weight: 700;
+}
+
+.join p {
+    color: var(--grayish-blue);
+    line-height: 2rem;
+}
+
+.subscription {
+    background-color: var(--cyan);
+    padding: 2rem;
+}
+
+.subscription :not(span) {
+    /*padding: 0.5rem;*/
+}
+
+.subscription h3 {
+    color: var(--white) ;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.subscription p {
+    color: var(--white);
+    line-height: 2rem;
+    /*margin-top: 1rem;*/
+}
+
+.currency {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.frequency {
+    color: #93dfe1;
+}
+
+.per-day {
+    margin-bottom: 2rem;
+}
+
+.subscription button {
+    border: none;
+    border-radius: 0.3rem;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    padding: 1rem;
+    background: var(--pbright-yellow);
+    color: var(--white);
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+
+.why {
+    background-color: var(--trans-cyan);
+    padding: 2rem;
+    color: var(--white);
+}
+
+.why ul {
+    /*padding: 0;*/
+    font-weight: 400;
+    color: var(--dumb-overlay-cyan);
+}
+
 main {
     display: flex;
+    flex-direction: column;
     height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue-gray);
+}
+
+@media (min-width: 376px){
+    .price-box {
+        max-width: 720px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns each taking 1 fraction of available space */
+        grid-template-rows: repeat(2, auto); /* Two rows with auto height */
+    }
+
+    .join {
+        grid-column: 1 / span 2;
+    }
+
+    .why ul {
+        padding: 0;
+    }
+
+
 }

@@ -4,25 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="figma file wont open so still eyeballing it">
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/._single-price-grid-component-figma" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/single-price-grid-component-figma/._README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/single-price-grid-component-figma/._single-price-grid-component.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/single-price-grid-component-figma/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/single-price-grid-component-figma/single-price-grid-component.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/README-template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/design/desktop-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/design/desktop-preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/design/mobile-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/style-guide.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/styles.css" afterDir="false" />
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="Single Price Grid, initial commit">
+      <change afterPath="$PROJECT_DIR$/thumbnails/price-grid.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +102,8 @@
       <workItem from="1701782089114" duration="7017000" />
       <workItem from="1702365237563" duration="1469000" />
       <workItem from="1702371967135" duration="4184000" />
+      <workItem from="1702470356197" duration="680000" />
+      <workItem from="1702544290813" duration="8708000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
