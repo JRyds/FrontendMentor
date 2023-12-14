@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="Single Price Grid, edited challenge">
-      <change afterPath="$PROJECT_DIR$/downloads/__MACOSX/order-summary-component-figma/._README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/__MACOSX/order-summary-component-figma/._order-summary-component.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/order-summary-component-figma.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/order-summary-component-figma/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/order-summary-component-figma/order-summary-component.fig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/downloads/order-summary-component-main.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/README-template.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/design/active-states.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/design/desktop-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/design/desktop-preview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/design/mobile-design.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/images/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/images/icon-music.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/images/illustration-hero.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-desktop.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-mobile.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/style-guide.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="first commit for Order Summary Component" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -119,7 +96,7 @@
       <workItem from="1702371967135" duration="4184000" />
       <workItem from="1702470356197" duration="680000" />
       <workItem from="1702544290813" duration="11013000" />
-      <workItem from="1702560314161" duration="673000" />
+      <workItem from="1702560314161" duration="869000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -209,7 +186,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702559420906</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Single Price Grid, edited layout to center footer">
+      <option name="closed" value="true" />
+      <created>1702561062255</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1702561062255</updated>
+    </task>
+    <task id="LOCAL-00013" summary="first commit for Order Summary Component">
+      <option name="closed" value="true" />
+      <created>1702561181626</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1702561181626</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,6 +219,8 @@
     <MESSAGE value="figma file wont open so still eyeballing it" />
     <MESSAGE value="Single Price Grid, completed challenge" />
     <MESSAGE value="Single Price Grid, edited challenge" />
-    <option name="LAST_COMMIT_MESSAGE" value="Single Price Grid, edited challenge" />
+    <MESSAGE value="Single Price Grid, edited layout to center footer" />
+    <MESSAGE value="first commit for Order Summary Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit for Order Summary Component" />
   </component>
 </project>

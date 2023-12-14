@@ -88,7 +88,7 @@ body {
     font-size:18px;
     font-family: 'Karla', serif;
     font-weight: 400;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     background-color: var(--blue-gray);
