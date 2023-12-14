@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="edited min-height on &lt;main&gt;">
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="edited some color vars">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +103,7 @@
       <workItem from="1702470356197" duration="680000" />
       <workItem from="1702544290813" duration="11013000" />
       <workItem from="1702560314161" duration="869000" />
-      <workItem from="1702561682697" duration="1993000" />
+      <workItem from="1702561682697" duration="3705000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -221,7 +225,23 @@
       <option name="project" value="LOCAL" />
       <updated>1702562121250</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="edited some color vars">
+      <option name="closed" value="true" />
+      <created>1702565663862</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1702565663862</updated>
+    </task>
+    <task id="LOCAL-00017" summary="edited some color vars">
+      <option name="closed" value="true" />
+      <created>1702565676255</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1702565676255</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,6 +262,7 @@
     <MESSAGE value="first commit for Order Summary Component" />
     <MESSAGE value="edited min-height on &lt;body&gt;" />
     <MESSAGE value="edited min-height on &lt;main&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited min-height on &lt;main&gt;" />
+    <MESSAGE value="edited some color vars" />
+    <option name="LAST_COMMIT_MESSAGE" value="edited some color vars" />
   </component>
 </project>
