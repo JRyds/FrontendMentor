@@ -69,7 +69,7 @@ textarea:not([rows]) {
 
 :root {
     /* Color Variables */
-    --white: hsl(0, 59%, 37%);
+    --white: hsl(0, 50%, 98%);
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(218, 80%, 31%);
     --dark-blue: hsl(218, 44%, 22%);
