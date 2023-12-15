@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="Changes made due to feedback">
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="More changes made due to feedback">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +101,7 @@
       <workItem from="1702560314161" duration="869000" />
       <workItem from="1702561682697" duration="4199000" />
       <workItem from="1702633994236" duration="4303000" />
-      <workItem from="1702639466803" duration="9160000" />
+      <workItem from="1702639466803" duration="10083000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -281,7 +279,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702649334958</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="More changes made due to feedback">
+      <option name="closed" value="true" />
+      <created>1702650875635</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1702650875635</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +313,7 @@
     <MESSAGE value="completed Order Summary Component" />
     <MESSAGE value="Edited headings" />
     <MESSAGE value="Changes made due to feedback" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes made due to feedback" />
+    <MESSAGE value="More changes made due to feedback" />
+    <option name="LAST_COMMIT_MESSAGE" value="More changes made due to feedback" />
   </component>
 </project>
