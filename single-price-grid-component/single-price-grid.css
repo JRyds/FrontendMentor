@@ -93,6 +93,7 @@ body {
     flex-direction: column;
     background-color: var(--blue-gray);
     justify-content: center;
+    /*min-height: 100vh;*/
 
 
 }
@@ -100,7 +101,7 @@ body {
 main {
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    /*min-height: 80vh;*/
     align-items: center;
     justify-content: center;
     background-color: var(--blue-gray);

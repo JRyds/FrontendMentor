@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="Stats Preview First Upload">
-      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/3columncard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/3column-preview-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/order-summary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/order-summary-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/qrcode.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/qr-code-styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/single-price-grid.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/single-price-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stats-preview-card-component-main/stats-preview.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="cleaned up project file names. changed each one from index.html to a proper page name for the relevant project." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -85,6 +70,9 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jpryd\Documents\Frontend Mentor\qr-code" />
+      <recent name="C:\Users\jpryd\Documents\Frontend Mentor\single-price-grid-component" />
+      <recent name="C:\Users\jpryd\Documents\Frontend Mentor\3-column-preview-card" />
       <recent name="C:\Users\jpryd\Documents\Frontend Mentor\qr-code\qr-code-component-main" />
       <recent name="C:\Users\jpryd\Documents\Frontend Mentor\workit-landing-page\workit-landing-page" />
     </key>
@@ -118,7 +106,7 @@
       <workItem from="1702657142496" duration="218000" />
       <workItem from="1702657809886" duration="621000" />
       <workItem from="1702658438709" duration="646000" />
-      <workItem from="1702659087908" duration="1549000" />
+      <workItem from="1702659087908" duration="1872000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -320,7 +308,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702658491419</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="cleaned up project file names. changed each one from index.html to a proper page name for the relevant project.">
+      <option name="closed" value="true" />
+      <created>1702661635458</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1702661635458</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -348,6 +344,7 @@
     <MESSAGE value="Changes made due to feedback" />
     <MESSAGE value="More changes made due to feedback" />
     <MESSAGE value="Stats Preview First Upload" />
-    <option name="LAST_COMMIT_MESSAGE" value="Stats Preview First Upload" />
+    <MESSAGE value="cleaned up project file names. changed each one from index.html to a proper page name for the relevant project." />
+    <option name="LAST_COMMIT_MESSAGE" value="cleaned up project file names. changed each one from index.html to a proper page name for the relevant project." />
   </component>
 </project>
