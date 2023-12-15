@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="Stats Preview First Upload">
-      <change afterPath="$PROJECT_DIR$/stats-preview-card-component-main/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webResources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stats-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stats-preview-card-component-main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/3columncard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/3column-preview-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-summary-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/order-summary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-summary-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/order-summary-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/qrcode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/qr-code-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/single-price-grid.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/single-price-grid-component/single-price-grid-component-master/single-price-grid.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/stats-preview-card-component-main/stats-preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,25 +64,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/jpryd/Documents/Frontend Mentor",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jpryd/Documents/Frontend Mentor&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jpryd\Documents\Frontend Mentor\qr-code\qr-code-component-main" />
@@ -108,6 +117,8 @@
       <workItem from="1702639466803" duration="10260000" />
       <workItem from="1702657142496" duration="218000" />
       <workItem from="1702657809886" duration="621000" />
+      <workItem from="1702658438709" duration="646000" />
+      <workItem from="1702659087908" duration="1549000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -301,7 +312,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702656964085</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Stats Preview First Upload">
+      <option name="closed" value="true" />
+      <created>1702658491419</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1702658491419</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
