@@ -173,10 +173,15 @@ p {
     justify-content: center;
 }
 
+h2 {
+    font-size: .9rem;
+}
+
 .change-link {
     color: var(--button-purple);
     font-weight: 700;
     text-decoration: underline;
+    font-size: .7rem;
 }
 
 @media (min-width: 376px) {
@@ -206,6 +211,20 @@ p {
         font-weight: 500;
         color: var(--cancel-blue);
     }
+
+
+    h2 {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    .change-link {
+        color: var(--button-purple);
+        font-weight: 700;
+        text-decoration: underline;
+        font-size: 1.1rem;
+    }
+
 
     .payment-button {
         padding: 1.05rem;
