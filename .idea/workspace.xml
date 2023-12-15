@@ -4,22 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="fixed attribute positioning">
-      <change afterPath="$PROJECT_DIR$/order-summary-component-main/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-desktop.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-mobile.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-summary-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/._single-price-grid-component-figma" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/single-price-grid-component-figma/._README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/single-price-grid-component-figma/._single-price-grid-component.fig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/single-price-grid-component-figma/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/single-price-grid-component-figma/single-price-grid-component.fig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-master.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/styles.css" afterDir="false" />
-    </list>
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="completed Order Summary Component" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,7 +99,7 @@
       <workItem from="1702560314161" duration="869000" />
       <workItem from="1702561682697" duration="4199000" />
       <workItem from="1702633994236" duration="4303000" />
-      <workItem from="1702639466803" duration="6950000" />
+      <workItem from="1702639466803" duration="7252000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -268,7 +253,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702567762312</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="completed Order Summary Component">
+      <option name="closed" value="true" />
+      <created>1702648299970</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1702648299970</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +284,7 @@
     <MESSAGE value="edited min-height on &lt;main&gt;" />
     <MESSAGE value="edited some color vars" />
     <MESSAGE value="fixed attribute positioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed attribute positioning" />
+    <MESSAGE value="completed Order Summary Component" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed Order Summary Component" />
   </component>
 </project>
