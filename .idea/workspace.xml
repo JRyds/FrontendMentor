@@ -5,11 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="fixed attribute positioning">
+      <change afterPath="$PROJECT_DIR$/order-summary-component-main/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/3-column-preview-card/3-column-preview-card-component-main/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-desktop.svg" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-desktop.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-mobile.svg" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/images/pattern-background-mobile.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-summary-component-main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/order-summary-component-main/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qr-code-component-main/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/._single-price-grid-component-figma" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/single-price-grid-component-figma/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/__MACOSX/single-price-grid-component-figma/._single-price-grid-component.fig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/single-price-grid-component-figma/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-figma/single-price-grid-component-figma/single-price-grid-component.fig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/single-price-grid-component/downloads/single-price-grid-component-master.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/workit-landing-page/workit-landing-page/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +112,9 @@
       <workItem from="1702470356197" duration="680000" />
       <workItem from="1702544290813" duration="11013000" />
       <workItem from="1702560314161" duration="869000" />
-      <workItem from="1702561682697" duration="4009000" />
+      <workItem from="1702561682697" duration="4199000" />
+      <workItem from="1702633994236" duration="4303000" />
+      <workItem from="1702639466803" duration="6950000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -249,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702567694378</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="fixed attribute positioning">
+      <option name="closed" value="true" />
+      <created>1702567762312</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1702567762312</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
