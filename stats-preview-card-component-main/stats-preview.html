@@ -6,30 +6,72 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="stats-preview-styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Lexend+Deca:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Stats preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 50%, 44%); }
-  </style>
 </head>
 <body>
 
-<div>Get insights that help your business grow.</div>
+  <div class="page-container">
 
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
+    <main>
+      <div class="card-container">
+        <img src="images/image-header-desktop.png" alt="">
 
-  10k+ companies
-  314 templates
-  12m+ queries
+        <div class="card-info">
+          <h1 class="heading">Get <span class="highlight">insights</span> that help your business grow.</h1>
+          <p class="info">Discover the benefits of data analytics and make better decisions regarding revenue,
+            customer experience, and overall efficiency.</p>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+          <div class="statbox-container">
+            <div class="statbox">
+              <p class="stat">
+                10k+
+              </p>
+              <p class="item">
+                companies
+              </p>
+            </div>
+
+
+            <div class="statbox">
+              <p class="stat">
+                314
+              </p>
+              <p class="item">
+                templates
+              </p>
+            </div>
+
+
+            <div class="statbox">
+              <p class="stat">
+                12M+
+              </p>
+              <p class="item">
+                queries
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </main>
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">JP Ryding</a>.
+    </footer>
+
+
   </div>
+
 </body>
 </html>

@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="cleaned up project file names. changed each one from index.html to a proper page name for the relevant project." />
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="changed footer nesting in single price grid component">
+      <change afterPath="$PROJECT_DIR$/stats-preview-card-component-main/images/image-header-desktop.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats-preview-card-component-main/stats-preview.html" beforeDir="false" afterPath="$PROJECT_DIR$/stats-preview-card-component-main/stats-preview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stats-preview-card-component-main/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/stats-preview-card-component-main/stats-preview-styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,7 +111,8 @@
       <workItem from="1702657142496" duration="218000" />
       <workItem from="1702657809886" duration="621000" />
       <workItem from="1702658438709" duration="646000" />
-      <workItem from="1702659087908" duration="1872000" />
+      <workItem from="1702659087908" duration="7320000" />
+      <workItem from="1702720786338" duration="2365000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />
@@ -316,7 +322,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702661635458</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="changed footer nesting in single price grid component">
+      <option name="closed" value="true" />
+      <created>1702661940268</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1702661940268</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -345,6 +359,7 @@
     <MESSAGE value="More changes made due to feedback" />
     <MESSAGE value="Stats Preview First Upload" />
     <MESSAGE value="cleaned up project file names. changed each one from index.html to a proper page name for the relevant project." />
-    <option name="LAST_COMMIT_MESSAGE" value="cleaned up project file names. changed each one from index.html to a proper page name for the relevant project." />
+    <MESSAGE value="changed footer nesting in single price grid component" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed footer nesting in single price grid component" />
   </component>
 </project>

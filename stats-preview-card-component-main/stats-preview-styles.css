@@ -1,0 +1,182 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Prevent font size inflation */
+html {
+    -moz-text-size-adjust: none;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+/* Remove default margin in favour of better control in authored CSS */
+body, h1, h2, h3, h4, p,
+figure, blockquote, dl, dd {
+    margin-block-end: 0;
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+    list-style: none;
+}
+
+/* Set core body defaults */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    font-size: 15px;
+    font-family: Inter, serif;
+    color: var(--white);
+}
+
+/* Set shorter line heights on headings and interactive elements */
+h1, h2, h3, h4,
+button, input, label {
+    line-height: 1.1;
+}
+
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+    color: currentColor;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+    max-width: 100%;
+    display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button,
+textarea, select {
+    font: inherit;
+}
+
+/* Make sure text areas without a rows attribute are not tiny */
+textarea:not([rows]) {
+    min-height: 10em;
+}
+
+/* Anything that has been anchored to should have extra scroll margin */
+:target {
+    scroll-margin-block: 5ex;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 1rem;
+}
+.attribution a {
+    color: hsl(228, 40%, 69%);
+}
+
+:root {
+    --white: #ffffff;
+    --corpo-purple: #AB5CDB;
+    --blackish-blue: #0A0C1C;
+    --midnight-blue: #1B1937;
+    --corpo-grey: #adacac;
+}
+
+
+
+.page-container {
+    background: var(--blackish-blue);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    border-radius: 0.5rem;
+    background: var(--midnight-blue);
+    overflow: hidden;
+}
+
+
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.info {
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--corpo-grey);
+    padding: 1.4rem;
+}
+
+.highlight {
+    color: var(--corpo-purple);
+}
+
+.statbox {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    width: 100%;
+    color: var(--white);
+    justify-content: center;
+    align-items: center;
+}
+
+.stat {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.item {
+    font-family: 'Lexend Deca', serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: var(--corpo-grey);
+    font-size: 0.8rem;
+}
+
+@media screen and (min-width: 376px) {
+
+    .card-container {
+        flex-direction: row-reverse; /* Reversed order */
+    }
+
+    .statbox-container {
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+
+
+    .info, .heading {
+        text-align: left;
+    }
+
+
+
+}
