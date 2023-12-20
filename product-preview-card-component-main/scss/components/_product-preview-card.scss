@@ -1,0 +1,10 @@
+
+//Product Image
+.product-image {
+    background-image: url('../images/image-product-mobile.jpg');
+    background-size: cover;  /* Resize the background image to cover the entire container */
+    background-position: center;  /* Center the background image */
+    height: 300px;  /* Set a specific height */
+    width: 100%;  /* Set a specific width */
+    margin: 0;
+  }

@@ -2,5 +2,8 @@
 @import './base/reset.scss';
 @import './layout/footer.scss';
 @import './layout/layout.scss'; //this is the .main-container
-
+@import './components/product-preview-card';
+@import './components/product-details';
+@import './components/price';
+@import './components/buttons';
 

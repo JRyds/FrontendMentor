@@ -1,0 +1,26 @@
+@import "../typography/typography";
+
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    .current-price {
+        font-family: $font-family-fraunces;
+        font-size: 2rem;
+        font-weight: 700;
+        color: $dark-cyan;
+        margin-right: 1rem;
+    }
+
+    .old-price {
+        font-family: $font-family-montserrat;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: $dark-grayish-blue;
+        text-decoration: line-through;
+    }
+
+
+}
+
