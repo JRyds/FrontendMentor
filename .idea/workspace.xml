@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="nooticed some files needed commiting before switching over to VS Code" />
+    <list default="true" id="de374ce3-575d-4800-b2e4-11faa627dea9" name="Changes" comment="nooticed some files needed commiting before switching over to VS Code">
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/README-template.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/design/active-states.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/design/desktop-design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/design/desktop-preview.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/design/mobile-design.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/images/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/images/icon-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/images/image-product-desktop.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/images/image-product-mobile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/product-preview-card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-preview-card-component-main/style-guide.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/__MACOSX/order-summary-component-figma/._README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/__MACOSX/order-summary-component-figma/._order-summary-component.fig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/order-summary-component-figma.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/order-summary-component-figma/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/order-summary-component-figma/order-summary-component.fig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/order-summary-component-main.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/stats-preview-card/stats-preview-card-component-figma.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/downloads/stats-preview-card/stats-preview-card-component-main.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qr-code/qrcode.html" beforeDir="false" afterPath="$PROJECT_DIR$/qr-code/qrcode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +134,7 @@
       <workItem from="1702659087908" duration="7320000" />
       <workItem from="1702720786338" duration="2365000" />
       <workItem from="1702993711248" duration="34000" />
+      <workItem from="1702993770588" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="QR Code Component Finished">
       <option name="closed" value="true" />

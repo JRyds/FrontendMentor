@@ -1,14 +1,69 @@
+/* CSS Reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
-    --charcoal-gray: #333333;
-    --stone-gray: #808080;
-    --light-gray: #D9D9D9;
+    --charcoal-gray: hwb(0 20% 80% / 0.521);
+    --stone-gray: #c7c7c7;
+    --light-gray: #f8f3f3;
     --beige: #F5F5DC;
-    --deep-blue: #001F3F;
+    --deep-blue: #001325;
 }
 
 body {
     background-color: var(--light-gray);
     font-family: 'Poppins', sans-serif;
+}
+.beginner-challenges {
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--stone-gray);
+    margin-bottom: 1rem;
+}
+
+.beginner-responsive-challenges {
+    padding: .5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: var(--stone-gray);
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-weight: 600;
+    color: var(--deep-blue);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-weight: 500;
+    color: var(--deep-blue);
+    text-align: center;
+    line-height: 1.6;
+}
+
+.section-h2 {
+    display: block;
+    text-align: center;
+    color: var(--deep-blue);
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--deep-blue);
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 #project-list {
@@ -21,7 +76,7 @@ body {
 .project-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     border: 10px solid var(--beige);
     margin: 0.5rem; /* Adjust margin for spacing between project containers */
