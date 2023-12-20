@@ -1,0 +1,35 @@
+.attribution {
+    font-size: 11px;
+    
+
+    a {
+        color: hsl(228, 45%, 44%);
+      }
+  }
+
+  // base/_typography.scss
+
+// Import the fonts from Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Fraunces:wght@700&display=swap');
+
+// Define the font families
+$font-family-montserrat: 'Montserrat', sans-serif;
+$font-family-fraunces: 'Fraunces', serif;
+
+// Define the font weights
+$font-weight-regular: 500;
+$font-weight-bold: 700;
+
+// Define the default paragraph font size
+$font-size-paragraph: 14px;
+
+body {
+  font-family: $font-family-montserrat;
+  font-size: $font-size-paragraph;
+  font-weight: $font-weight-regular;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-fraunces;
+  font-weight: $font-weight-bold;
+}
