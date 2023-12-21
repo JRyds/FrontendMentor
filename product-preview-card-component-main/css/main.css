@@ -12,7 +12,7 @@ body {
   font-size: 14px;
   font-weight: 500; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: "Fraunces", serif;
   font-weight: 700; }
 
@@ -98,17 +98,24 @@ main {
   border-radius: 0.9rem;
   overflow: hidden; }
 
-.product-image {
-  background-image: url("../images/image-product-mobile.jpg");
-  background-size: cover;
-  /* Resize the background image to cover the entire container */
-  background-position: center;
-  /* Center the background image */
-  height: 300px;
-  /* Set a specific height */
-  width: 100%;
-  /* Set a specific width */
-  margin: 0; }
+@media (min-width: 700px) {
+  main {
+    max-width: 600px;
+    height: 450px;
+    flex-direction: row; } }
+
+.img-desktop {
+  display: none; }
+
+@media (min-width: 700px) {
+  .img-desktop {
+    display: block;
+    max-height: 450px;
+    object-fit: contain; }
+  .img-mobile {
+    display: none; }
+  .product-image {
+    background-image: url("../images/image-product-desktop.jpg"); } }
 
 .attribution {
   font-size: 11px; }
@@ -120,7 +127,7 @@ body {
   font-size: 14px;
   font-weight: 500; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: "Fraunces", serif;
   font-weight: 700; }
 
@@ -149,6 +156,14 @@ p {
   color: #6c7289;
   margin: 1rem 0; }
 
+@media (min-width: 700px) {
+  .product-details {
+    height: 100%; }
+  p {
+    font-size: 1rem;
+    color: #6c7289;
+    margin: 1rem 0; } }
+
 .attribution {
   font-size: 11px; }
   .attribution a {
@@ -159,7 +174,7 @@ body {
   font-size: 14px;
   font-weight: 500; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: "Fraunces", serif;
   font-weight: 700; }
 
@@ -180,6 +195,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #6c7289;
     text-decoration: line-through; }
 
+@media (min-width: 700px) {
+  .price {
+    margin: 1.2rem 0; } }
+
 .attribution {
   font-size: 11px; }
   .attribution a {
@@ -190,7 +209,7 @@ body {
   font-size: 14px;
   font-weight: 500; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
   font-family: "Fraunces", serif;
   font-weight: 700; }
 

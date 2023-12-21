@@ -17,3 +17,13 @@ main {
     border-radius: 0.9rem;
     overflow: hidden;
 }
+
+@media (min-width: 700px) {
+    main {
+        max-width: 600px;
+        height: 450px;
+        flex-direction: row;
+        // align-items: flex-start;
+        // justify-content: space-between;
+    }
+  }

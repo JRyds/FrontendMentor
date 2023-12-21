@@ -27,3 +27,15 @@ p {
     color: $dark-grayish-blue;
     margin: 1rem 0;
 }
+
+@media (min-width: 700px) {
+    .product-details {
+        height: 100%;
+    }
+
+    p {
+        font-size: 1rem;
+        color: $dark-grayish-blue;
+        margin: 1rem 0;
+    }
+}
