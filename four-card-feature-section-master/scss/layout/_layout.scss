@@ -1,29 +1,30 @@
 @import "../variables/variables";
 
 .main-container {
+    padding-top: 5rem;
     display: flex;
     min-height: 100vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: $cream;
+    background-color: $corpo-Gray;
+
 }
 
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     max-width: 375px;
-    border-radius: 0.9rem;
     overflow: hidden;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 900px) {
     main {
-        max-width: 600px;
-        height: 450px;
-        flex-direction: row;
-        // align-items: flex-start;
-        // justify-content: space-between;
+        max-width: 900px;;
+        height: 75vh;
+        justify-content: center;
     }
-  }
+}
+
